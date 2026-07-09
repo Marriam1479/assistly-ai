@@ -38,7 +38,7 @@ export const generateEmail = createServerFn({ method: "POST" })
     ].join("\n");
     const { text } = await generateText({
       model: getGatewayModel(),
-      system: "You are an expert executive communications assistant.",
+      instructions: "You are an expert executive communications assistant.",
       prompt,
     });
     return { text };
@@ -73,7 +73,7 @@ export const summarizeNotes = createServerFn({ method: "POST" })
     ].join("\n");
     const { text } = await generateText({
       model: getGatewayModel(),
-      system: "You are a meticulous meeting-notes analyst.",
+      instructions: "You are a meticulous meeting-notes analyst.",
       prompt,
     });
     return { text };
@@ -110,7 +110,7 @@ export const generatePlan = createServerFn({ method: "POST" })
     ].filter(Boolean).join("\n");
     const { text } = await generateText({
       model: getGatewayModel(),
-      system: "You are a senior project planning and productivity coach.",
+      instructions: "You are a senior project planning and productivity coach.",
       prompt,
     });
     return { text };
