@@ -9,6 +9,7 @@ import {
   Settings,
   LifeBuoy,
   Sparkles,
+  HeartPulse,
 } from "lucide-react";
 import {
   Sidebar,
@@ -27,6 +28,7 @@ const primary = [
   { title: "Smart Email Generator", url: "/email", icon: Mail },
   { title: "Meeting Notes Summarizer", url: "/meeting-notes", icon: FileText },
   { title: "AI Task Planner", url: "/task-planner", icon: ListChecks },
+  { title: "Health Planner", url: "/health-planner", icon: HeartPulse },
 ];
 
 const library = [
