@@ -82,7 +82,7 @@ function Dashboard() {
             <Badge className="mb-3 border-0 bg-white/20 text-primary-foreground hover:bg-white/25">
               <Sparkles className="size-3.5" /> AI Productivity Suite
             </Badge>
-            <h1 className="text-2xl font-bold sm:text-3xl">Welcome back, Alex</h1>
+            <h1 className="text-2xl font-bold sm:text-3xl">Welcome back, Marriam</h1>
             <p className="mt-1.5 text-sm text-primary-foreground/85">
               Automate your workday with AI. Draft emails, summarize meetings, and plan projects — all in one place.
             </p>
