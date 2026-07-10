@@ -93,11 +93,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Automate everyday workplace tasks with AI — emails, meeting summaries, and task planning in one suite.",
+          "Automate everyday workplace tasks with AI — generate professional emails, summarize meeting notes, and build task plans in one productivity suite.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Automate everyday workplace tasks with AI — generate professional emails, summarize meeting notes, and build task plans in one productivity suite." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/077b0dcb-abd4-48eb-90e0-fc8c6cefa39e/id-preview-be6a109e--27ee6f6e-c1bd-4778-9d22-3a5aabafc5ea.lovable.app-1783646207980.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/077b0dcb-abd4-48eb-90e0-fc8c6cefa39e/id-preview-be6a109e--27ee6f6e-c1bd-4778-9d22-3a5aabafc5ea.lovable.app-1783646207980.png" },
     ],
     links: [
       {
